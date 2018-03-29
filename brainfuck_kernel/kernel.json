@@ -1,0 +1,3 @@
+{"argv":["python","-m","brainfuck_kernel", "-f", "{connection_file}"],
+ "display_name":"Brainfuck"
+}
