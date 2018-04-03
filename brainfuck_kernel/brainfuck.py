@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import sys, getch
+import sys
 
 def execute_program(code, braces, cells, aCells, p):
     instr_pointer = 0
@@ -29,7 +29,10 @@ def execute_program(code, braces, cells, aCells, p):
                 sys.exit(1)
             if p == len(aCells): aCells.append(0)
         elif command == ".": output += chr(aCells[p])
-        elif command == ",": aCells[p] = ord(getch.getch())
+        
+        #TODO
+        # elif command == ","
+
         elif command == "[":
             if aCells[p] == 0:
                 instr_pointer = braces[instr_pointer] 
