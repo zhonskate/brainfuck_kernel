@@ -9,6 +9,7 @@ Each input shows a very rich output including the pointer position and stack sna
 ## Installation
 
 Just clone this repo, go inside the root dyrectory and execute:
+
 ```$ sudo jupyter kernelspec install brainfuck_kernel/```
 
 ```$ ./install.sh```
